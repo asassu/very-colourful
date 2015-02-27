@@ -1,0 +1,17 @@
+{
+  "name": "very-colourful",
+  "version": "1.0.0",
+  "description": "Colours are Neat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Sassu",
+  "license": "Attribution-Noncommercial-Share Alike",
+  "dependencies": {
+    "express": "^4.11.2",
+    "jade": "^1.9.2",
+    "lodash": "^3.1.0",
+    "colourlovers": "*"
+  }
+}

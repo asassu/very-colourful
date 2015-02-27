@@ -1,0 +1,7 @@
+extends layout.jade
+
+block content
+    each item in accounts
+        h3 
+            a(href='/color/view/' + item.hex)
+                = item.hex
