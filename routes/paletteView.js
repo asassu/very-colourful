@@ -13,7 +13,7 @@ module.exports = function(app, COLOURlovers) {
 
 		    //console.log(account);
 
-			res.render('colorView.jade', {
+			res.render('paletteView.jade', {
             	account: account
         	})
 

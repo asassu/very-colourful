@@ -18,3 +18,11 @@ img {
 	border: 1px #aaa solid;
 	padding: 2px;
 }
+
+.colorBox{
+	width: 150px;
+	height: 150px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}

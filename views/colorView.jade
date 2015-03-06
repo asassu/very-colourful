@@ -2,5 +2,16 @@ extends layout
 
 block content
   - var item = account[0]
-    h1= item.hex
-    h3= item.userName
+    h1= item.title
+    h3= "#" + item.hex
+
+    div.colorBox(style="background-color:#"+ item.hex)
+
+    ul
+      li= "Total Views: " + item.numViews
+      li= "Total Votes: " + item.numVotes
+      li= "Rank: " + item.rank
+      if(item.description != "")
+        li= "Description: " + item.description
+      else
+        li= "Description: No description given."
