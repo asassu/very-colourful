@@ -14,6 +14,6 @@ You can view the site locally at
 
 The skeleton site is hosted publicly at 
 
-[https://frozen-tor-4197.herokuapp.com/](https://frozen-tor-4197.herokuapp.com/note/list)
+[https://asassu-very-colourful.herokuapp.com/](https://asassu-very-colourful.herokuapp.com/)
 
 
