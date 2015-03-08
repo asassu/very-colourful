@@ -2,6 +2,6 @@ extends layout.jade
 
 block content
     each item in accounts
-        h3 
+        h3.listItem
             a(href='/color/view/' + item.hex)
                 = item.title

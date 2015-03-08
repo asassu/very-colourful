@@ -6,6 +6,15 @@
 .person .name { font-weight: bolder;}
 .person .role { font-size: 90%;}
 
+body{
+	background-color: #bbb;
+}
+
+.container{
+	background-color: #fff;
+	padding: 20px;
+}
+
 img {
 	max-width:100%;
 	border: 1px grey solid;
@@ -25,4 +34,10 @@ img {
 	margin: 0px;
 	padding: 0px;
 	display: inline-block;
+}
+
+.listItem{
+	text-align: center;
+	padding: 10px;
+	background-color: #eee;
 }
